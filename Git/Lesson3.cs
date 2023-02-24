@@ -36,7 +36,6 @@
                     countOfnumber++;
                     Console.Write(" -  true\n");
                 }
-
                 Console.WriteLine();
             }
         }
@@ -68,7 +67,6 @@
                 j++;
             }
             while (j < numbers.Length);
-
 
             j = -1;
             do
@@ -103,6 +101,7 @@
 
             Console.WriteLine("\n " + result);
         }
+
         public static void TwoDimensionalArray()
         {
             Random random = new Random();
@@ -130,7 +129,6 @@
                 }
                 Console.WriteLine();
             }
-
 
             Console.Write("Main: ");
             for (int i = 0; i < matrix.GetLength(0); i++)
