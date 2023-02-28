@@ -40,6 +40,8 @@
             }
         }
 
+        // Task2
+        // create new array
         public static void Arrays()
         {
             Random random = new Random();
