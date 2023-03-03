@@ -17,23 +17,21 @@ namespace Git.Classes
 
 
         //private
-        string passportIdNumber;
+        //string passportIdNumber;
 
-        public string PassportIdNumber
-        {
-            private get
-            {
-                return age + passportIdNumber + id;
-            }
-            private set
-            {
-                if (value > 18)
-                {
-                    passportIdNumber = value;
-                }               
-            }
-        }
+        //internal string PassportIdNumber
+        //{
+        //    get
+        //    {
+        //        return passportIdNumber;
+        //    }
+        //    set
+        //    {
+        //        passportIdNumber = value;
+        //    }
+        //}
 
+        internal string PassportIdNumber { get; set; } = "asdsafsdfh5854484";
 
         public string GetpassportIdNumber()
         {
