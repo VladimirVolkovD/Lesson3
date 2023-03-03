@@ -1,0 +1,12 @@
+D:\Volodya\TMCS\Git\OOP\bin\Debug\net6.0\OOP.deps.json
+D:\Volodya\TMCS\Git\OOP\bin\Debug\net6.0\OOP.dll
+D:\Volodya\TMCS\Git\OOP\bin\Debug\net6.0\OOP.pdb
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.csproj.AssemblyReference.cache
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.AssemblyInfoInputs.cache
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.AssemblyInfo.cs
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.csproj.CoreCompileInputs.cache
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.dll
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\refint\OOP.dll
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\OOP.pdb
+D:\Volodya\TMCS\Git\OOP\obj\Debug\net6.0\ref\OOP.dll

@@ -1,0 +1,15 @@
+D:\Volodya\TMCS\Git\Git\bin\Debug\net6.0\Git.exe
+D:\Volodya\TMCS\Git\Git\bin\Debug\net6.0\Git.deps.json
+D:\Volodya\TMCS\Git\Git\bin\Debug\net6.0\Git.runtimeconfig.json
+D:\Volodya\TMCS\Git\Git\bin\Debug\net6.0\Git.dll
+D:\Volodya\TMCS\Git\Git\bin\Debug\net6.0\Git.pdb
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.csproj.AssemblyReference.cache
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.GeneratedMSBuildEditorConfig.editorconfig
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.AssemblyInfoInputs.cache
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.AssemblyInfo.cs
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.csproj.CoreCompileInputs.cache
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.dll
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\refint\Git.dll
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.pdb
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\Git.genruntimeconfig.cache
+D:\Volodya\TMCS\Git\Git\obj\Debug\net6.0\ref\Git.dll
