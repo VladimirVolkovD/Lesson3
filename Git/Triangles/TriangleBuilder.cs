@@ -12,13 +12,12 @@ namespace Git.Triangles
 
         public Triangle CreateTriangle(double firstSide, double secondSide, double thirdSide)
         {
-            if((firstSide == secondSide) && (firstSide == thirdSide))
+            if ((firstSide == secondSide) && (firstSide == thirdSide))
             {
                 return new EquiletarlTriangle(firstSide, secondSide, thirdSide);
             }
-            
-            return new Triangle(firstSide, secondSide, thirdSide);
 
+            return new Triangle(firstSide, secondSide, thirdSide);
         }
     }
 }

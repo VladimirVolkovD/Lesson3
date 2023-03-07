@@ -9,7 +9,6 @@ namespace Git
         {
             Triangle triangle = new TriangleBuilder().CreateTriangle(5, 5, 5);
             Console.Write(triangle.GetSquare());
-        }
-       
+        }       
     }
 }
