@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Git.Classes
+﻿namespace Git.Classes
 {
     internal class Car
     {
@@ -23,14 +17,12 @@ namespace Git.Classes
 
         public Car() { }
 
-
-        
         public void IncreaseSpeed()
         {
-            if(speed < maxspeed)
+            if (speed < maxspeed)
             {
                 speed += 5;
-            }            
+            }
         }
 
         public double IncreaseSpeed(out double currentSpeed)
@@ -40,9 +32,9 @@ namespace Git.Classes
             if (speed < maxspeed)
             {
                 speed += 5;
-               
+
             }
-           
+
             return speed;
         }
 
@@ -53,7 +45,6 @@ namespace Git.Classes
                 this.speed += speed;
             }
         }
-
         public void IncreaseSpeed(ref int speed)
         {
             if (speed < maxspeed)

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Git.Classes
+﻿namespace Git.Classes
 {
     /// <summary>
     /// Represent person
@@ -12,67 +6,32 @@ namespace Git.Classes
     public class Person
     {
         public string name;
-        public int age;
-        public int id;
+        private int age;
 
-
-        //private
-        //string passportIdNumber;
-
-        //internal string PassportIdNumber
-        //{
-        //    get
-        //    {
-        //        return passportIdNumber;
-        //    }
-        //    set
-        //    {
-        //        passportIdNumber = value;
-        //    }
-        //}
-
-        internal string PassportIdNumber { get; set; } = "asdsafsdfh5854484";
-
-        public string GetpassportIdNumber()
-        {
-            return "**" + passportIdNumber + "**";
-        }
-
-        public void SetpassportIdNumber(string number)
-        {
-            passportIdNumber = number;
-        }
+        public string PassportIdNumber { get; set; }
 
         public Person()
         {
-            passportIdNumber = "115654A016PB3";
         }
 
-        public Person(int age, string name, int id = 1)
+        public Person(string name)
         {
             this.name = name;
-            this.age = age;
-            this.id = id;
         }
 
         public void GetInfo()
         {
-            var passportNumber = GetpassportIdNumber();
-            Console.WriteLine($"Name: {name}, age: {age}, id: {passportNumber}");
+            Console.Write($"Name: {name},  passportNumber: {PassportIdNumber} ");
         }
 
-        public void CompareWith(Person anotherPerson)
+        public virtual void GetCredo()
         {
-
-            if (anotherPerson.age == this.age)
-            {
-                Console.WriteLine("Same age!");
-            }
-            else
-            {
-                Console.WriteLine("Not same age!");
-            }
+            Console.WriteLine("I am good person");
         }
 
+        public void GetAge()
+        {
+            Console.WriteLine($"Age: {age}");
+        }
     }
 }

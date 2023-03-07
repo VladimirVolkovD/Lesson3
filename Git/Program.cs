@@ -1,17 +1,15 @@
 ﻿using Git.Classes;
+using Git.Triangles;
 
 namespace Git
 {
     internal class Program
     {
-
-
         static void Main()
         {
-            var person = new Person(12, "volodya", 12);
-            person.PassportIdNumber  = "asd466as4d8as6a";
-            Console.WriteLine(person.PassportIdNumber);
+            Triangle triangle = new TriangleBuilder().CreateTriangle(5, 5, 5);
+            Console.Write(triangle.GetSquare());
         }
-
+       
     }
 }
